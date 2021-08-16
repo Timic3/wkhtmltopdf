@@ -1,18 +1,17 @@
 {
-    "name": "timic3/wkhtmltopdf-amd64",
-    "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+    "name": "timic3/wkhtmltopdf",
+    "description": "Static linked wkhtmltopdf libraries for Ubuntu 18.x.",
     "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
     "license": "LGPL Version 3",
     "homepage": "http://wkhtmltopdf.org/",
-    "authors": [
-        {
-            "name": "Julius Beckmann",
-            "email": "github@h4cc.de"
-        }
-    ],
     "minimum-stability": "stable",
     "bin": [
-        "bin/wkhtmltopdf-amd64"
+        "bin/wkhtmltopdf-amd64",
+        "bin/wkhtmltoimage-amd64",
+        "bin/wkhtmltopdf-i386",
+        "bin/wkhtmltoimage-i386",
+        "bin/wkhtmltopdf-arm64",
+        "bin/wkhtmltoimage-arm64"
     ],
     "require": {
     }
